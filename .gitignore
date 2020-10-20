@@ -1,0 +1,23 @@
+﻿.idea/
+build
+nodu_modules
+npm-debug.log
+### Windows template
+# Windows image file caches
+Trumbs.db
+ehthumbs.db
+
+# Folder cinfig file
+Dekstop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.ink
