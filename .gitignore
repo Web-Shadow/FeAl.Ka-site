@@ -1,7 +1,9 @@
 ﻿.idea/
+.vs
 build
-nodu_modules
+node_modules
 npm-debug.log
+package-lock.json
 ### Windows template
 # Windows image file caches
 Trumbs.db
@@ -21,3 +23,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.ink
+
