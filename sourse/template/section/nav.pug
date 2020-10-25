@@ -1,0 +1,12 @@
+-var links = ["Сумки", "Верхняя одежда","Брюки","Обувь"]
+
+mixin nav_link(itms, className, active)
+	ul(class=className)
+		each itm, index in itms
+			li(class=className + "__item")
+				if index===active
+					span(class=className + "__active")=itm
+				else
+					a(class=className + "__link")=itm
+
++nav_link(links, "nav", 0)

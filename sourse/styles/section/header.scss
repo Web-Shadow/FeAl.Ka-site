@@ -1,0 +1,15 @@
+.header{
+	&__top{
+		background-color: gray;
+		.container{
+			display: -moz-box;
+			display: -webkit-box;
+			display: flexbox;
+		
+			-moz-box-orient: horizontal;
+			-webkit-box-orient: horizontal;
+			box-orient: horizontal;
+		}
+		
+	}
+}

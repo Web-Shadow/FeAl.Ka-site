@@ -1,3 +1,10 @@
-body{
-    background-color: green;
-}
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@import "global/base.scss";
+@import "global/common.scss";
+@import "global/mixins.scss";
+
+@import "section/header.scss";
+@import "section/nav.scss";

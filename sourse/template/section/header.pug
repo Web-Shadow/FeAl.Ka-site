@@ -1,0 +1,19 @@
+header.header
+	.header__top
+		.container
+			.logo
+				img(class=logo__img)
+			.header__scan
+					input(type="text")
+			.header__contact
+				a(class=inst href="#")
+					i.fa.fa-instagram.contact__icon(aria-hidden="true")
+					span.contact__text @feal.ka
+				a(class=whatsApp href="#")
+					i.fa.fa-whatsapp.contact__icon(aria-hidden="true")
+					span.contact__text +77782048955	
+	.container
+		.header__botton
+			include nav.pug
+			.basket
+				i.fa.fa-shopping-cart(aria-hidden="true")
